@@ -1,6 +1,3 @@
-import logo from '../assets/logo.svg';
-import menu from '../assets/menu.svg';
-import close from '../assets/close.svg';
 import people01 from "../assets/people01.png";
 import people02 from "../assets/people02.png";
 import people03 from "../assets/people03.png";
