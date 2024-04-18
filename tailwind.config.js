@@ -18,8 +18,8 @@ export default {
 			xs: '12px', // 12px
 			sm: '14px', // 14px
 			base: '16px', // 16px
-			lg: '30px', // 18px
-			xl: '1.25rem', // 20px
+			lg: '18px', // 18px
+			xl: '30px', // 30px
 			'2xl': '2rem', // 24px
 			'3xl': '1.875rem', // 30px
 			'4xl': '2.25rem', // 36px
