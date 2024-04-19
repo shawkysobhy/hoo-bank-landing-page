@@ -15,8 +15,8 @@ function Teshtimoninials() {
 						</p>
 					</div>
 					<div className='flex flex-wrap justify-center '>
-						{feedback.map((feedback, indx) => {
-							return <FeedbackCard key={indx} feedback={feedback} />;
+						{feedback.map((feedback) => {
+							return <FeedbackCard key={feedback.id} feedback={feedback} />;
 						})}
 					</div>
 				</section>

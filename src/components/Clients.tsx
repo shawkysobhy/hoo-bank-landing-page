@@ -8,10 +8,10 @@ function Clients() {
 			<div className='w-full  xl:max-w-[1280px]'>
 				<section className='flex flex-col paddingX'>
 					<div className='flex flex-row flex-wrap items-center justify-around gap-4'>
-						{[airbnb, binance, dropbox, coinbase].map((img, index) => {
+						{[airbnb, binance, dropbox, coinbase].map((img) => {
 							return (
 								<div
-									key={index}
+									key={img}
 									className='flex items-start justify-center flex-1 min-w-[100px] sm:min-w-[180px]'>
 									<img src={img} className='w-[100px] sm:w-[180px]' />
 								</div>

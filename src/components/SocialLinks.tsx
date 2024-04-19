@@ -10,9 +10,9 @@ function SocialLinks() {
 				<div className='flex flex-col items-center justify-between gap-6 pt-6 md:flex-row'>
 					<p>2022 HooBank. All Rights Reserved.</p>
 					<div className='flex items-center gap-4'>
-						{socialIcons.map((platform, index) => {
+						{socialIcons.map((platform) => {
 							return (
-								<a className='cursor-pointer' key={index}>
+								<a className='cursor-pointer' key={platform}>
 									<img src={platform} />
 								</a>
 							);

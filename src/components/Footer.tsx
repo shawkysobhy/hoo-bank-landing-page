@@ -21,10 +21,10 @@ function Footer() {
 										className='flex flex-col gap-6 min-w-[200px]'>
 										<h5 className='font-bold'>{category.title}</h5>
 										<div className='flex flex-col gap-4 text-dimWhite'>
-											{category.links.map((link, index) => {
+											{category.links.map((link) => {
 												return (
 													<a
-														key={index}
+														key={link.name}
 														href={link.link}
 														className='hover:text-secondary'>
 														{link.name}
