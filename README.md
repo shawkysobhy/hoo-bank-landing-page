@@ -14,7 +14,7 @@ A landing page project built with TypeScript, React, and Tailwind CSS. This proj
 
 ## Demo
 
-[Link to live demo](https://hoo-bank-landing-page-six.vercel.app/)
+[Link to live demo](https://hoo-bank-intro.vercel.app/)
 
 ![Project Screenshot](public/screenshot.png)
 
