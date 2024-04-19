@@ -4,7 +4,7 @@ import dropbox from '../assets/dropbox.png';
 import coinbase from '../assets/coinbase.png';
 function Clients() {
 	return (
-		<div className='flex items-center justify-center py-6 text-white pg-primary sm:py-16 '>
+		<div className='flex items-center justify-center text-white paddingY pg-primary '>
 			<div className='w-full  xl:max-w-[1280px]'>
 				<section className='flex flex-col paddingX'>
 					<div className='flex flex-row flex-wrap items-center justify-around gap-4'>

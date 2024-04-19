@@ -23,7 +23,10 @@ function Footer() {
 										<div className='flex flex-col gap-4 text-dimWhite'>
 											{category.links.map((link, index) => {
 												return (
-													<a key={index} href={link.link}>
+													<a
+														key={index}
+														href={link.link}
+														className='hover:text-secondary'>
 														{link.name}
 													</a>
 												);

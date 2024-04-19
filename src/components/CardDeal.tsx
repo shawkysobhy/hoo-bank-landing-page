@@ -2,14 +2,14 @@ import CustomButton from "./Button";
 import cardDeal from "../assets/card.png";
 function CardDeal() {
   return (
-		<div className='flex items-start justify-center py-6 pg-primary sm:py-16'>
+		<div className='flex items-start justify-center pg-primary paddingY'>
 			<div className='w-full xl:max-w-[1280px]'>
 				<section className='flex flex-col-reverse items-center gap-10 md:flex-row-reverse paddingX'>
 					<div className='flex-1'>
 						<img src={cardDeal} className='w-[100%] h-[100%]' />
 					</div>
 					<div className='flex flex-col items-start flex-1 '>
-						<h2 className='font-semibold xs:text-[48px] text-[30px] text-white xs:leading-[76.8px] leading-[66.8px] w-full'>
+						<h2 className='heading'>
 							Find a better card deal in <br className='hidden sm:block' />
 							few easy steps
 						</h2>
