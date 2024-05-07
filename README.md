@@ -1,4 +1,4 @@
-# Project Title
+# Hoo-Bank-Landing-Page
 
 A landing page project built with TypeScript, React, and Tailwind CSS. This project showcases various sections and layouts for creating modern and responsive landing pages.
 
